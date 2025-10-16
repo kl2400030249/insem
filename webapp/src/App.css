@@ -1,0 +1,55 @@
+/* General app styling */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@500&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #e0f7fa;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background: linear-gradient(to right, #4a90e2, #50e3c2);
+  color: #fff;
+  padding: 24px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  gap: 20px;
+  flex: 1;
+}
+
+.footer {
+  background-color: #00796b;
+  color: #fff;
+  text-align: center;
+  padding: 16px;
+  font-weight: 500;
+}
+
+/* Scrollbar for main content */
+.main-content::-webkit-scrollbar {
+  width: 8px;
+}
+.main-content::-webkit-scrollbar-thumb {
+  background-color: #4a90e2;
+  border-radius: 4px;
+}
